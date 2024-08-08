@@ -1,0 +1,16 @@
+﻿{
+  "Name": "BulkBuy",
+  "Author": "focustense",
+  "Version": "0.1.0",
+  "Description": "Description of the mod",
+  "UniqueID": "focustense.BulkBuy",
+  "EntryDll": "BulkBuy.dll",
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    }
+  ],
+  "MinimumApiVersion": "4.0.5",
+  "UpdateKeys": [ "Nexus:0", "GitHub:focustense/BulkBuy" ]
+}
