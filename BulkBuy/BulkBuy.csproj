@@ -2,7 +2,7 @@
     <PropertyGroup>
         <AssemblyName>BulkBuy</AssemblyName>
         <RootNamespace>BulkBuy</RootNamespace>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <TargetFramework>net6.0</TargetFramework>
         <LangVersion>Latest</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>

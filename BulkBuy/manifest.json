@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Bulk Buy",
   "Author": "focustense",
-  "Version": "0.1.0",
+  "Version": "0.1.1",
   "Description": "Rapidly buy entire stacks of items without using the keyboard.",
   "UniqueID": "focustense.BulkBuy",
   "EntryDll": "BulkBuy.dll",
