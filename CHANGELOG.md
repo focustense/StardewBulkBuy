@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Fixed
+
+- Acceleration wasn't working after dismissing and reopening shop menu due to instability of game's `lastCursorMotionWasMouse` state. Instead, check explicitly that the action/tool buttons are coming from the controller, which should always work.
+
 ## [0.1.0] - 2024-08-09
 
 ### Added
@@ -14,5 +18,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Control acceleration/speed with controller A + X buttons.
 - Speed configuration via GMCM.
 
-[Unreleased]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.0...0.1.1
 [0.1.0]: https://github.com/focustense/StardewBulkBuy/tree/v0.1.0
