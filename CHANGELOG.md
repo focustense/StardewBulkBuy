@@ -6,11 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.1.1] - 2024-08-09
+
 ### Fixed
 
 - Acceleration wasn't working after dismissing and reopening shop menu due to instability of game's `lastCursorMotionWasMouse` state. Instead, check explicitly that the action/tool buttons are coming from the controller, which should always work.
 
-## [0.1.0] - 2024-08-09
+## [0.1.0] - 2024-08-08
 
 ### Added
 
