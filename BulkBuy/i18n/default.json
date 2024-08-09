@@ -1,3 +1,8 @@
 {
-  "ExampleKey": "Example text"
+  "ModDescription": "Speed up large purchases by holding both controller action buttons.",
+  "Config.MaxStack.Title": "Maximum Speed",
+  "Config.MaxStack.Description": "The maximum speedup as a multiplier of normal purchase speed (1x is default speed).",
+  "Config.TimeToMaxStack.Title": "Acceleration Time",
+  "Config.TimeToMaxStack.Description": "Time to accelerate from default speed to max speed. Lower values may save you precious seconds, but make quantities harder to precisely control.",
+  "Config.TimeToMaxStack.Format": "{{time}} sec"
 }

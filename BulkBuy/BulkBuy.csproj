@@ -8,6 +8,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <WarningsAsErrors>Nullable</WarningsAsErrors>
+        <EnableHarmony>true</EnableHarmony>
     </PropertyGroup>
 
     <ItemGroup>
@@ -24,11 +25,11 @@
     <ProjectExtensions><VisualStudio><UserProperties manifest_1json__JsonSchema="https://smapi.io/schemas/manifest.json" /></VisualStudio></ProjectExtensions>
 
     <ItemGroup>
-	  <Using Include="StardewValley" />
+      <Using Include="StardewValley" />
       <Using Include="StardewModdingAPI" />
       <Using Alias="Object" Include="System.Object" />
       <Using Alias="SObject" Include="StardewValley.Object" />
-	  <Using Alias="Rectangle" Include="Microsoft.Xna.Framework.Rectangle" />
-	  <Using Alias="Vector2" Include="Microsoft.Xna.Framework.Vector2" />
+      <Using Alias="Rectangle" Include="Microsoft.Xna.Framework.Rectangle" />
+      <Using Alias="Vector2" Include="Microsoft.Xna.Framework.Vector2" />
   </ItemGroup>
 </Project>

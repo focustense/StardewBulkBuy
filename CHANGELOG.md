@@ -6,12 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
-## [0.1.0] - 2024-08-02
+## [0.1.0] - 2024-08-09
 
 ### Added
 
 - Initial release.
-- [Add bullet points for alpha features.]
+- Control acceleration/speed with controller A + X buttons.
+- Speed configuration via GMCM.
 
-[Unreleased]: https://github.com/focustense/BulkBuy/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/focustense/BulkBuy/tree/v0.1.0
+[Unreleased]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/focustense/StardewBulkBuy/tree/v0.1.0
