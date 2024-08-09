@@ -74,8 +74,7 @@ internal sealed class ModEntry : Mod
     {
         var nextActive = shopMenuActive.Value
             && Game1.options.gamepadControls
-            && !Game1.lastCursorMotionWasMouse
-            && e.Held.Count(b => b.IsActionButton() || b.IsUseToolButton()) == 2;
+            && e.Held.Count(b => b.TryGetController(out var _) && (b.IsActionButton() || b.IsUseToolButton())) == 2;
         if (accelerationActive.Value && !nextActive)
         {
             ShopMenuPatch.Accelerator.Value.Reset();
