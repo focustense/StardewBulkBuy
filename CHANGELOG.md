@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.2.0] - 2024-11-11
+
+### Fixed
+
+- Rebuilt against current game version to resolve `MissingFieldException` on `ShopMenu.itemPriceAndStock`.
+
 ## [0.1.1] - 2024-08-09
 
 ### Fixed
@@ -20,6 +26,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Control acceleration/speed with controller A + X buttons.
 - Speed configuration via GMCM.
 
-[Unreleased]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/focustense/StardewBulkBuy/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/focustense/StardewBulkBuy/tree/v0.1.0
