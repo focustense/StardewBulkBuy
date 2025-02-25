@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-02-25
+
+### Fixed
+
+- Bulk buying broken/disabled by [Item Extensions](https://www.nexusmods.com/stardewvalley/mods/20357) 1.14.0.
+
 ## [0.2.0] - 2024-11-11
 
 ### Fixed
@@ -26,7 +32,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Control acceleration/speed with controller A + X buttons.
 - Speed configuration via GMCM.
 
-[Unreleased]: https://github.com/focustense/StardewBulkBuy/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/focustense/StardewBulkBuy/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/focustense/StardewBulkBuy/compare/v0.2.0...v1.0.0
 [0.2.0]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/focustense/StardewBulkBuy/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/focustense/StardewBulkBuy/tree/v0.1.0

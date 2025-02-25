@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Bulk Buy",
   "Author": "focustense",
-  "Version": "0.2.0",
+  "Version": "1.0.0",
   "Description": "Rapidly buy entire stacks of items without using the keyboard.",
   "UniqueID": "focustense.BulkBuy",
   "EntryDll": "BulkBuy.dll",
@@ -11,7 +11,7 @@
       "IsRequired": false
     }
   ],
-  "MinimumApiVersion": "4.1.1",
-  "MinimumGameVersion": "1.6.10",
+  "MinimumApiVersion": "4.1.10",
+  "MinimumGameVersion": "1.6.15",
   "UpdateKeys": [ "Nexus:26856", "GitHub:focustense/StardewBulkBuy" ]
 }
